@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { lazy, Suspense } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
 
-function App() {
+// views
+import { Home } from "./components/views/Home/Home.jsx";
+import { Send } from "./components/views/Send/Send.jsx";
+const Error404 = lazy(() => import("./components/views/Error404/Error404"));
+
+export const App = () => {
+  const location = useLocation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes location={location} key={location.pathname}>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/send/:id" element={<Send />}></Route>
+      <Route
+        path="*"
+        element={
+          <Suspense fallback={<>...</>}>
+            <Error404 />
+          </Suspense>
+        }
+      />
+    </Routes>
   );
-}
-
-export default App;
+};
