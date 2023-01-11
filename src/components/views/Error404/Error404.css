@@ -1,0 +1,27 @@
+.error404__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.error404__btn {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    border-radius: var(--global-radius);
+    background-color: var(--global-error-color);
+    color: #ffffff;
+    padding: 8px 12px;
+    transition: all .3s ease-out;
+    cursor: pointer;
+}
+
+.error404__btn:hover {
+    color: var(--global-error-color);
+    outline: 1px solid var(--global-error-color);
+    background-color: #ffffff;
+}

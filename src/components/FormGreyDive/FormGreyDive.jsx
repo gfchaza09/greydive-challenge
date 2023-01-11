@@ -23,7 +23,7 @@ export const FormGreyDive = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    fetch('./greydive-challenge/data/db.json').then(res => res.json()).then(data => {
+    fetch('./data/db.json').then(res => res.json()).then(data => {
       setItemsForm(data.items);
       setIsLoading(false);
     });

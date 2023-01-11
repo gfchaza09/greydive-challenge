@@ -53,3 +53,20 @@
     outline: 1px solid var(--global-primary-color);
     background-color: #ffffff;
 }
+
+.error__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    color: var(--global-error-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:720px) {
+    .error__container {
+        height: 300px;
+    }
+}

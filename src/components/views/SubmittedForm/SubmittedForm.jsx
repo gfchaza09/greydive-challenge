@@ -12,14 +12,19 @@ export const SubmittedForm = () => {
 
     const [dataForm, setDataForm] = useState({});
     const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState("");
 
     const {idForm} = useParams();
 
     const getData = async (id) => {
         const querySnapshot = await getDoc(doc(db,"submittedForm",id));
-        setDataForm({id: querySnapshot.id, ...querySnapshot.data()});
-        if (querySnapshot) {
+        if (querySnapshot.exists()) {
+          setDataForm({id: querySnapshot.id, ...querySnapshot.data()});
           setIsLoading(false);
+          setError("");
+        } else {
+          setIsLoading(false);
+          setError("El id proporcionado en la URL no es válido")
         }
     }
     
@@ -43,7 +48,9 @@ export const SubmittedForm = () => {
           <h1>Formulario enviado</h1>
           <h2>Sus respuestas son: </h2>
           {
-              isLoading ? <div className="loader__container"><Loader /></div> : <div className="form__container--submitted">
+              isLoading ? <div className="loader__container"><Loader /></div> : error 
+              ? <div className="error__container"><p>{error}</p></div>  
+              : <div className="form__container--submitted">
               <h3 className="text__label--submitted">Nombre completo </h3>
               <p className="text__input--submitted">{dataForm?.full_name}</p>
               <h3 className="text__label--submitted">Email </h3>
