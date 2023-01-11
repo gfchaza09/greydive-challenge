@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Challenge Greydive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Índice
 
-## Available Scripts
+1. [Descripción del proyecto](#descripcion)
+2. [Tecnologías aplicadas](#tecnologias)
+3. [Autor](#autor)
+4. [Deploy](#deploy)
 
-In the project directory, you can run:
+<a name="descripcion"></a>
 
-### `npm start`
+## 1. Descripción del proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Proyecto creado para resolver el desafío de la empresa greydive. Aplicación creada en React.js, la cual genera un formulario a partir de un documento JSON y cuyas respuestas, al enviarse, se almacenan en una base de datos de Firebase. Una vez enviado el formulario, el usuario recibe una alerta, la cual si la confirma, es redireccionado a sus respuestas
+La ruta a las respuestas es: https://gfchaza09.github.io/greydive-challenge/#/submittedForm/ID, donde ID es el identificador que genera Firebase al almacenar un documento).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a name="tecnologias"></a>
 
-### `npm test`
+## 2. Stack y Tecnologías aplicadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Tecnologías solicitadas |
+| ----------------------- |
+| React.js                |
+| CSS                     |
+| Firebase                |
 
-### `npm run build`
+| Tecnologías adicionales |
+| ----------------------- |
+| Formik+Yup              |
+| Framer Motion           |
+| React Router Dom        |
+| Sweet Alert             |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a name="autor"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Autor
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Gabriel Chazarreta | Desarrollador FrontEnd
+|Redes | Link |
+|---------------------------|----------------|
+|GitHub |[gfchaza09](https://github.com/gfchaza09) |
+|Linkedin |[Link](https://www.linkedin.com/in/gabriel-chazarreta/)|
+|Twittter |[GabrielChaza9](https://twitter.com/GabrielChaza9) |
+|Portfolio |[Link](https://portfolio-gfchaza.netlify.app/)|
 
-### `npm run eject`
+<a name="deploy"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 4. Deploy
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+El desplique de la aplicación se realizó en GitHub pages.
+Para probar la aplicación:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Debe ingresar al siguiente link:
+  [greydive-challenge](gfchaza09.github.io/greydive-challenge/)
