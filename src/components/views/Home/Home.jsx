@@ -4,8 +4,10 @@ import { FormGreyDive } from '../../FormGreyDive/FormGreyDive'
 
 export const Home = () => {
   return (
-    <div>
+    <main className='main__container'>
+      <div className="banner"></div>
         <FormGreyDive />
-    </div>
+      <div className="banner__mobile"></div>
+    </main>
   )
 }

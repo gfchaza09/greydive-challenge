@@ -1,0 +1,22 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 12px 24px 16px; 
+}
+
+.form__container--title {
+    margin: 16px 0px;
+}
+
+.form__container--subtitle {
+    margin: 12px 0px;
+}
+
+@media screen and (max-width: 720px) {
+
+    .form__container--title {
+        margin: 8px 0px 16px;
+    }
+}
