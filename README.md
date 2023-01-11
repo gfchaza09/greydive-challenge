@@ -13,7 +13,7 @@
 
 Proyecto creado para resolver el desafío de la empresa greydive. Aplicación creada en React.js, la cual genera un formulario a partir de un documento JSON y cuyas respuestas, al enviarse, se almacenan en una base de datos de Firebase. Una vez enviado el formulario, el usuario recibe una alerta, la cual si la confirma, es redireccionado a sus respuestas.
 
-La ruta a las respuestas es: https://gfchaza09.github.io/greydive-challenge/#/submittedForm/ID, donde ID es el identificador que genera Firebase al almacenar un documento).
+La ruta a las respuestas es: https://gfchaza09.github.io/greydive-challenge/#/submittedForm/ID, donde ID es el identificador que genera Firebase al almacenar un documento.
 
 <a name="tecnologias"></a>
 
