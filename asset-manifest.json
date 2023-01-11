@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/greydive-challenge/static/css/main.d50fb805.css",
-    "main.js": "/greydive-challenge/static/js/main.a9416a7d.js",
-    "static/js/799.4ec92d38.chunk.js": "/greydive-challenge/static/js/799.4ec92d38.chunk.js",
+    "main.css": "/greydive-challenge/static/css/main.1a08ebbc.css",
+    "main.js": "/greydive-challenge/static/js/main.bfc5d78f.js",
+    "static/css/200.9a830866.chunk.css": "/greydive-challenge/static/css/200.9a830866.chunk.css",
+    "static/js/200.67fccdaf.chunk.js": "/greydive-challenge/static/js/200.67fccdaf.chunk.js",
     "static/js/787.1160b584.chunk.js": "/greydive-challenge/static/js/787.1160b584.chunk.js",
     "index.html": "/greydive-challenge/index.html",
-    "main.d50fb805.css.map": "/greydive-challenge/static/css/main.d50fb805.css.map",
-    "main.a9416a7d.js.map": "/greydive-challenge/static/js/main.a9416a7d.js.map",
-    "799.4ec92d38.chunk.js.map": "/greydive-challenge/static/js/799.4ec92d38.chunk.js.map",
+    "main.1a08ebbc.css.map": "/greydive-challenge/static/css/main.1a08ebbc.css.map",
+    "main.bfc5d78f.js.map": "/greydive-challenge/static/js/main.bfc5d78f.js.map",
+    "200.9a830866.chunk.css.map": "/greydive-challenge/static/css/200.9a830866.chunk.css.map",
+    "200.67fccdaf.chunk.js.map": "/greydive-challenge/static/js/200.67fccdaf.chunk.js.map",
     "787.1160b584.chunk.js.map": "/greydive-challenge/static/js/787.1160b584.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d50fb805.css",
-    "static/js/main.a9416a7d.js"
+    "static/css/main.1a08ebbc.css",
+    "static/js/main.bfc5d78f.js"
   ]
 }
